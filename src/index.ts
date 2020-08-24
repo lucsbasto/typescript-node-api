@@ -1,1 +1,1 @@
-console.log("foi");
+console.log('foi');
