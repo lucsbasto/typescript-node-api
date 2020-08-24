@@ -1,0 +1,119 @@
+{
+  "hours": [
+    {
+      "swellDirection": {
+        "noaa": 190.38
+      },
+      "swellHeight": {
+        "noaa": 0.75
+      },
+      "swellPeriod": {
+        "noaa": 5.34
+      },
+      "time": "2020-08-24T00:00:00+00:00",
+      "waveDirection": {
+        "noaa": 230.33
+      },
+      "waveHeight": {
+        "noaa": 1.56
+      },
+      "windDirection": {
+        "noaa": 249.95
+      },
+      "windSpeed": {
+        "noaa": 6.59
+      }
+    },
+    {
+      "swellDirection": {
+        "noaa": 191.15
+      },
+      "swellHeight": {
+        "noaa": 0.74
+      },
+      "swellPeriod": {
+        "noaa": 5.35
+      },
+      "time": "2020-08-24T01:00:00+00:00",
+      "waveDirection": {
+        "noaa": 231.71
+      },
+      "waveHeight": {
+        "noaa": 1.56
+      },
+      "windDirection": {
+        "noaa": 249.94
+      },
+      "windSpeed": {
+        "noaa": 6.51
+      }
+    },
+    {
+      "swellDirection": {
+        "noaa": 191.92
+      },
+      "swellHeight": {
+        "noaa": 0.73
+      },
+      "swellPeriod": {
+        "noaa": 5.36
+      },
+      "time": "2020-08-24T02:00:00+00:00",
+      "waveDirection": {
+        "noaa": 233.09
+      },
+      "waveHeight": {
+        "noaa": 1.55
+      },
+      "windDirection": {
+        "noaa": 249.93
+      },
+      "windSpeed": {
+        "noaa": 6.43
+      }
+    },
+    {
+      "swellDirection": {
+        "noaa": 192.69
+      },
+      "swellHeight": {
+        "noaa": 0.72
+      },
+      "swellPeriod": {
+        "noaa": 5.37
+      },
+      "time": "2020-08-24T03:00:00+00:00",
+      "waveDirection": {
+        "noaa": 234.47
+      },
+      "waveHeight": {
+        "noaa": 1.55
+      },
+      "windDirection": {
+        "noaa": 249.92
+      },
+      "windSpeed": {
+        "noaa": 6.35
+      }
+    }
+  ],
+  "meta": {
+    "cost": 1,
+    "dailyQuota": 50,
+    "end": "2020-09-03 00:00",
+    "lat": 58.7984,
+    "lng": 17.8081,
+    "params": [
+      "swellDirection",
+      "swellHeight",
+      "swellPeriod",
+      "waveDirection",
+      "waveHeight",
+      "windDirection",
+      "windSpeed"
+    ],
+    "requestCount": 4,
+    "source": ["noaa"],
+    "start": "2020-08-24 00:00"
+  }
+}
