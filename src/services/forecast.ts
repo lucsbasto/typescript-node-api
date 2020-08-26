@@ -24,8 +24,8 @@ export interface TimeForecast {
 }
 
 export class ForecastProcessingInternalError extends InternalError {
-  constructor(message: string){
-    super(`Unexpected error during the forecast processing: ${message}`)
+  constructor(message: string) {
+    super(`Unexpected error during the forecast processing: ${message}`);
   }
 }
 
@@ -48,8 +48,11 @@ export class Forecast {
     }
   }
 
-  private enricheBeachData(points: ForecastPoint[], beach: Beach): BeachForecast[] {
-   return  points.map((point) => ({
+  private enricheBeachData(
+    points: ForecastPoint[],
+    beach: Beach
+  ): BeachForecast[] {
+    return points.map((point) => ({
       ...{
         lat: beach.lat,
         lng: beach.lng,
