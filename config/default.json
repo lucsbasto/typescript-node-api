@@ -1,0 +1,10 @@
+{
+  "App": {
+    "resources": {
+      "StormGlass": {
+        "apiUrl": "https://api.stormglass.io/v2",
+        "apiToken": "421e519e-e64b-11ea-be2e-0242ac130002-421e5306-e64b-11ea-be2e-0242ac130002"
+      }
+    }
+  }
+}
