@@ -52,5 +52,5 @@ describe('Beach forecast functional tests', () => {
     const { status } = await global.testRequest.get(`/forecast`);
 
     expect(status).toBe(500);
-  // });
+  });
 });
