@@ -1,5 +1,6 @@
 {
   "App": {
+    "port": 3000,
     "database": {
       "mongoUrl": "mongodb+srv://admin:admin@cluster0.dha1r.mongodb.net/surf-forecast?retryWrites=true&w=majority"
     },
