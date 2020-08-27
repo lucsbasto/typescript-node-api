@@ -9,9 +9,13 @@ export interface User {
 
 const schema = new Schema(
   {
-      name: { type: String, required: true },
-      email: { type: String, required: true, unique: [true, 'Email must to be unique']},
-      password: { type: String, required: true },   
+    name: { type: String, required: true },
+    email: {
+      type: String,
+      required: true,
+      unique: [true, 'Email must to be unique'],
+    },
+    password: { type: String, required: true },
   },
   {
     toJSON: {
